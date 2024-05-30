@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./*.html"],
+  content: ["index.html", "shop.html"],
   theme: {
     screens:{
         sm:"576px",
@@ -28,5 +28,7 @@ module.exports = {
         
   },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms')
+  ],
 }
